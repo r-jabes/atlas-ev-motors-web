@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -39,3 +40,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local research, notes, and Next agent scaffolding
+/doc/
+*.md
+
+# local QA tooling and screenshots (not part of the shipped site)
+/qa/
+/scripts/
+
+# generative / prep sources (served assets live in public/)
+/design-sources/
